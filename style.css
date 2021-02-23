@@ -1,0 +1,246 @@
+
+
+body {
+  background-color: blanchedalmond;
+  color:rgb(89, 67, 92);
+}
+
+h2, h3 {
+  font-size: 30px;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+section div p {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  border-color: black;
+  border-radius: 10px;
+  border-width: thick;
+}
+
+a:link { color: blanchedalmond }
+a:visited {color: blanchedalmond; }
+a:hover { color: white; }
+a:active { color: firebrick; }
+
+header {
+  font-family: 'RocknRoll One', sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: large;
+  background-color: rgb(89, 67, 92);
+  color: blanchedalmond;
+  padding: 10px 30px;
+  
+}
+
+header h1 {
+  color: blanchedalmond;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+header nav ul {
+  color: blanchedalmond;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+
+}
+
+header nav ul li a:link, header nav ul li a:visited {
+  text-decoration: none;
+  margin: 0 20px 0 0;
+  color: blanchedalmond;
+}
+
+
+header nav ul li a:hover {
+  text-decoration: none;
+  margin: 0 20px 0 0;
+  color: white;
+}
+
+header nav ul li a:active {
+  text-decoration: none;
+  margin: 0 20px 0 0;
+  color: firebrick;
+}
+
+
+header nav ul li:last-child a {
+  margin-right:0;
+}
+
+
+
+
+.group img {
+  width: 100%;
+  height: auto;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+  align-items: center;
+}
+
+.center {
+  align-self: center;
+}
+
+.left {
+  padding-left: 30px;
+}
+
+.right {
+  padding-right: 30px;
+}
+
+.background2 {
+  background-color: rgb(89, 67, 92);
+  color: blanchedalmond;
+}
+
+.wrapper {
+  background-color:  rgb(89, 67, 92);
+  color: blanchedalmond;
+  padding: 10px;
+  text-align: center;
+  font-family: 'RocknRoll One', sans-serif;
+  
+}
+
+footer a:link {
+  color: blanchedalmond;
+  margin: 3px;
+}
+
+footer a:visited {
+  color: blanchedalmond;
+}
+
+footer a:hover {
+  color: white;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  background-color: rgb(89, 67, 92);
+  height: 2px;
+}
+
+form {
+  padding-right: 6px;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+ 
+}
+
+form input {
+  max-width: 500px;
+  display: block;
+}
+
+form textarea {
+  height: 140px;
+  max-width: 500px;
+  display: block;
+}
+
+form button {
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-family: 'RocknRoll One', sans-serif;
+  background-color: rgb(89, 67, 92);
+  color: blanchedalmond;
+  margin: 0 10px 50px 0;
+  border: 0;
+}
+
+.button {
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-family: 'RocknRoll One', sans-serif;
+  background-color: rgb(89, 67, 92);
+  margin-right: 10px;
+  font-size: 14px;
+  
+}
+
+
+
+
+
+@media all and (min-width: 800px) {
+
+
+  section {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .item {
+    flex: 1;
+    align-content: space-between;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header h1 {
+    margin: 14px 0;
+    padding-top: 0;
+    display: flex;
+  }
+
+  footer a:link {
+    margin: 10px;
+  }
+  
+
+}
+
+
