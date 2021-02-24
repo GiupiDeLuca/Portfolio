@@ -238,6 +238,7 @@ form button {
 
   footer a:link {
     margin: 10px;
+    display:inline-flex;
   }
   
 
